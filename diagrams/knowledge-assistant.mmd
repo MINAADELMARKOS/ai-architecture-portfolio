@@ -1,0 +1,17 @@
+flowchart LR
+    employee[Employee] --> sso[Company SSO]
+    employee --> ui[Assistant UI]
+    sso --> api[API and access control]
+    ui --> api
+    api --> orchestrator[Orchestrator]
+    orchestrator --> retrieval[Permission-filtered retrieval]
+    retrieval --> index[(Search index)]
+    orchestrator --> gateway[Model gateway]
+    gateway --> model[Managed model API]
+    orchestrator --> gate[Citation and response gate]
+    gate --> ui
+    owner[Document owner] --> source[(Approved policy source)]
+    source --> ingest[Ingestion and versioning]
+    ingest --> index
+    api --> audit[(Audit and metrics)]
+    orchestrator --> audit
