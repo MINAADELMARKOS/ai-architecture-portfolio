@@ -1,6 +1,6 @@
 # Capstone deliverables
 
-The final architecture PDF and presentation slides will be added here after the design has been evaluated and reviewed. Keep the editable slide source alongside any exported PDF.
+The final architecture PDF and presentation slides will be added here after the design has been evaluated and reviewed, ahead of the course's 13 December 2026 final project deadline. Keep the editable slide source alongside any exported PDF.
 
 Planned contents:
 

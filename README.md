@@ -28,4 +28,4 @@ Each future course session should add one numbered file under `docs/`. Diagrams 
 
 ## Current status
 
-This is the initial portfolio scaffold. The model-hosting choice in ADR 0001 is provisional, and the capstone deliverables will be added after the architecture has been reviewed.
+This is an initial working draft for the course. Review the scenario and decisions against your own reasoning as sessions progress. The Session 02 notes and model-hosting choice are provisional; the capstone deliverables will be added after the architecture has been reviewed. The repository is public and is intended to remain public through the course's final project deadline on 13 December 2026.

@@ -1,5 +1,7 @@
 # Session 02 — Building blocks
 
+**Status:** Pre-session draft; revise after Session 02.
+
 The [editable diagram source](../diagrams/knowledge-assistant.mmd) and [SVG export](../diagrams/knowledge-assistant.svg) show the proposed first version.
 
 ## Request path
