@@ -1,0 +1,8 @@
+{
+  "marketing_consent_check_at_send": true,
+  "human_campaign_approval_required": true,
+  "ai_can_send_directly": false,
+  "pii_allowed_in_llm_prompts": false,
+  "daily_batch_scoring": true,
+  "customer_transaction_write_access_for_ai": false
+}

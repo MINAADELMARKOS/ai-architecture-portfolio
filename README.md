@@ -24,6 +24,10 @@ These assumptions should be validated with stakeholders before implementation. C
 3. Review numbered [architecture decision records](adr/README.md) for decisions, alternatives, and tradeoffs.
 4. Use [`capstone/README.md`](capstone/README.md) to track the final architecture PDF and presentation as the course progresses.
 
+## Course assignments
+
+- [Session 01 — Banking debit-card reactivation](assignments/session-01/README.md): a separate, illustrative mini-project with an editable wiki, diagram, three ADRs, review checklist, and policy guardrail. Its banking scenario is distinct from the portfolio's internal knowledge-assistant example.
+
 Each future course session should add one numbered file under `docs/`. Diagrams should keep an editable source file and an exported SVG or PNG. Decisions should receive their own numbered ADR, including rejected alternatives and a revisit trigger.
 
 ## Current status

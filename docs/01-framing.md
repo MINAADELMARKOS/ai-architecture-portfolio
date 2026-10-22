@@ -1,5 +1,7 @@
 # Session 01 — Framing
 
+The [Session 01 banking assignment](../assignments/session-01/README.md) is a separate case study. The notes below frame the internal knowledge-assistant scenario used elsewhere in this portfolio.
+
 ## Scenario
 
 Employees spend time finding the current HR or IT policy and confirming which version applies. The proposed assistant helps them locate approved guidance and answer routine questions with citations. It does not make policy decisions or perform account changes.
