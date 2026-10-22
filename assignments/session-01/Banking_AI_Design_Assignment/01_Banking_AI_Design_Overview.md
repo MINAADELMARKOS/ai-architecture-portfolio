@@ -25,7 +25,7 @@
 - **Cost:** cost per incremental reactivation, monthly spending limit and Finance-validated 90-day contribution; compare with manual baseline.
 - **Human oversight:** marketing + compliance sign-off before dispatch; versioned approval, kill switch and owner for incidents.
 
-**Optional automated guardrail (purpose: prevent unsafe configuration).** CI checks `architecture_policy.json` against P1/P2/P4: marketing consent gate enabled; AI direct-send disabled; PII in LLM prompts disabled; review required; batch mode selected. Fail deployment on violations. **Human ARB review remains mandatory.**
+**Optional automated guardrail (purpose: prevent unsafe configuration).** CI checks `08_Banking_AI_Design_Architecture_Policy.json` against P1/P2/P4: marketing consent gate enabled; AI direct-send disabled; PII in LLM prompts disabled; review required; batch mode selected. Fail deployment on violations. **Human ARB review remains mandatory.**
 
 **Diagram key:** Bank data → daily detection → eligible customer/offer list; marketer → optional AI draft → human approval; both reach a final consent+eligibility gate → messages → measured outcomes. All metrics above are hypotheses awaiting a banking pilot.
 

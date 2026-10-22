@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Optional Session-1 architecture declaration guardrail (stdlib only).
-Usage: python 07_Guardrail_CI.py 08_Architecture_Policy.json
+Usage: python 07_Banking_AI_Design_Policy_Guardrail.py 08_Banking_AI_Design_Architecture_Policy.json
 Checks declared design policy; it does NOT prove actual runtime enforcement.
 """
 import json, sys
@@ -20,7 +20,7 @@ def validate(data):
             for k, v in REQUIRED.items() if data.get(k) is not v]
 
 def main():
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).with_name("08_Architecture_Policy.json")
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).with_name("08_Banking_AI_Design_Architecture_Policy.json")
     try:
         config = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(config, dict):
